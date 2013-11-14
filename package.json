@@ -1,0 +1,27 @@
+{
+  "name": "memebot",
+  "version": "0.0.0",
+  "description": "An IRC bot that spits our random memes on request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/modulus/cleft"
+  },
+  "keywords": [
+    "irc",
+    "bot",
+    "meme"
+  ],
+  "author": "Matt Hernandez <matt@modulus.io>",
+  "license": "MIT",
+  "dependencies": {
+    "automeme": "0.0.0",
+    "irc": "~0.3.6"
+  },
+  "devDependencies": {
+    "jshint": "~2.3.0"
+  }
+}
