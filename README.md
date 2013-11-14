@@ -11,6 +11,8 @@ Pass the server information along with the channel to start the bot.
 require('memebot')('irc.freenode.net', '#channel');
 ```
 
+# License
+
 The MIT License (MIT)
 
 Copyright (c) 2013 Matt Hernandez
