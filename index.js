@@ -1,9 +1,10 @@
 var MemeBot = require('./lib/memebot')
+  , util    = require('util')
   , irc     = require('irc');
 
-module.exports = function(server, channel) {
+module.exports = function(server, channels) {
   var client = new irc.Client(server, 'memebot', {
-    channels: [channel]
+    channels: util.isArray(channels) ? channels : [channels]
   });
 
   return new MemeBot(client);

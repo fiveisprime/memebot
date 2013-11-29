@@ -11,6 +11,12 @@ Pass the server information along with the channel to start the bot.
 require('memebot')('irc.freenode.net', '#channel');
 ```
 
+Connect to multiple channels
+
+```js
+require('memebot')('irc.freenode.net', ['#channel', '#otherchannel']);
+```
+
 The bot looks for `!meme` then spits our a random meme to the channel.
 
 # License
