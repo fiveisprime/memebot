@@ -1,6 +1,6 @@
 {
   "name": "memebot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An IRC bot that spits our random memes on request.",
   "main": "index.js",
   "scripts": {
