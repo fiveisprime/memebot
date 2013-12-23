@@ -15,6 +15,7 @@ describe('meme', function() {
     client.say = function(channel, meme) {
       channel.should.equal('#channel');
       meme.should.equal('test');
+
       done();
     };
 
@@ -29,6 +30,7 @@ describe('meme', function() {
     client.say = function(from, meme) {
       from.should.equal('user');
       meme.should.equal('pm');
+
       done();
     };
 
