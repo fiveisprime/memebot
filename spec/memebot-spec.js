@@ -1,9 +1,8 @@
 var nock    = require('nock')
   , EE      = require('events').EventEmitter
-  , memebot = require('../lib/memebot');
+  , client  = new EE();
 
-var client = new EE()
-  , bot    = memebot(client);
+require('../lib/memebot')(client);
 
 describe('meme', function() {
 

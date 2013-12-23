@@ -1,4 +1,4 @@
-SRC = index.js lib/memebot.js
+SRC = index.js lib/memebot.js spec/memebot-spec.js
 
 test: $(SRC)
 	@node node_modules/.bin/jshint $^ \
