@@ -3,7 +3,6 @@ var nock    = require('nock')
   , client  = new EE();
 
 require('../lib/memebot')(client);
-require('should');
 
 describe('meme', function() {
 
