@@ -1,9 +1,7 @@
-memebot [![Build Status](https://travis-ci.org/fiveisprime/memebot.png?branch=master)](https://travis-ci.org/fiveisprime/memebot)
+memebot [![Build Status](https://travis-ci.org/fiveisprime/memebot.svg?branch=master)](https://travis-ci.org/fiveisprime/memebot)
 =======
 
 An IRC bot that spits our random memes on request.
-
-[![NPM](https://nodei.co/npm/memebot.png)](https://nodei.co/npm/memebot/)
 
 # Usage
 
