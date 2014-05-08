@@ -1,4 +1,4 @@
-memebot [![Build Status](https://travis-ci.org/fiveisprime/memebot.svg?branch=master)](https://travis-ci.org/fiveisprime/memebot)
+memebot [![Build Status](https://travis-ci.org/fiveisprime/memebot.svg?branch=master)](https://travis-ci.org/fiveisprime/memebot) [![NPM version](https://badge.fury.io/js/memebot.svg)](http://badge.fury.io/js/memebot)
 =======
 
 An IRC bot that spits our random memes on request.
